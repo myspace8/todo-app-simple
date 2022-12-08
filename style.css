@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+label,
+input,
+button,
+select,
+legend,
+textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    line-height: 1.2
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    background-color: lavender;
+    width: fit-content;
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0.6em;
+}
+
+main .wrapper {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+textarea {
+    width: 300px;
+    margin-right: 1em;
+    font-size: 1.3em;
+    padding: 0.6em;
+}
+
+
+
+#add-todo {
+    background: none;
+    border: none;
+    background-color: #2af;
+    padding: 0.2em 0.4em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ul li {
+    border: 2px solid lightgrey;
+    margin: 0.2em 0;
+    padding: 0.6em 0.34em;
+    text-transform: capitalize;
+}
